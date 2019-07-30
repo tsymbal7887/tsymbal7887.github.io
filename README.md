@@ -1,2 +1,2 @@
-# tsymbal7887.github.io
+# Vitalii Tsymbal
 Demo pages
