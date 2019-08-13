@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<!--[if IE 11 ]> <html class="ie11"> <![endif]-->
+<html lang="zxx">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <!-- Title of the site -->
+  <title>Gulp 4</title>
+  <meta name="theme-color" content="#fff">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- Site icon -->
+  <link rel="shortcut icon" href="img/favicons/favicon.ico" type="image/x-icon">
+  <link rel="icon" sizes="16x16" href="img/favicons/favicon-16x16.png" type="image/png">
+  <link rel="icon" sizes="32x32" href="img/favicons/favicon-32x32.png" type="image/png">
+  <link rel="apple-touch-icon-precomposed" href="img/favicons/apple-touch-icon-precomposed.png">
+  <link rel="apple-touch-icon" href="img/favicons/apple-touch-icon.png">
+  <link rel="apple-touch-icon" sizes="57x57" href="img/favicons/apple-touch-icon-57x57.png">
+  <link rel="apple-touch-icon" sizes="60x60" href="img/favicons/apple-touch-icon-60x60.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="img/favicons/apple-touch-icon-72x72.png">
+  <link rel="apple-touch-icon" sizes="76x76" href="img/favicons/apple-touch-icon-76x76.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="img/favicons/apple-touch-icon-114x114.png">
+  <link rel="apple-touch-icon" sizes="120x120" href="img/favicons/apple-touch-icon-120x120.png">
+  <link rel="apple-touch-icon" sizes="144x144" href="img/favicons/apple-touch-icon-144x144.png">
+  <link rel="apple-touch-icon" sizes="152x152" href="img/favicons/apple-touch-icon-152x152.png">
+  <link rel="apple-touch-icon" sizes="167x167" href="img/favicons/apple-touch-icon-167x167.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="img/favicons/apple-touch-icon-180x180.png">
+  <link rel="apple-touch-icon" sizes="1024x1024" href="img/favicons/apple-touch-icon-1024x1024.png">
+  <!-- Connect the font -->
+  <link href="https://fonts.googleapis.com/css?family=Lato:400,400i,700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.1/css/all.min.min.css">
+  <!-- We connect styles -->
+  <link rel="stylesheet" href="styles/main.min.css">
+</head>
+
+<body>
+  <!-- The BEM block "header" is connected -->
+<header class="main-header">
+  <div class="main-header__wrapper">
+    <h1 class="visually-hidden">Bicycle</h1>
+    <nav class="main-nav main-nav--closed">
+      <div class="main-nav__wrapper">
+        <button class="main-nav__toggle">
+          <span class="visually-hidden">Menu</span>
+        </button>
+        <!-- The BEM block "logotype" is connected -->
+<a href="#" class="logotype">
+  <img src="img/logo.png" width="94" height="85" alt="Logotype Bicycle">
+</a>
+        <ul class="main-nav__list site-list">
+          <li class="site-list__item"><a href="#" class="site-list__link">about us</a></li>
+          <li class="site-list__item"><a href="#" class="site-list__link">work</a></li>
+          <li class="site-list__item"><a href="#" class="site-list__link">shop</a></li>
+          <li class="site-list__item"><a href="#" class="site-list__link">contact</a></li>
+        </ul>
+      </div>
+    </nav>
+  </div>
+</header>
+  <!-- The BEM block "about-us" is connected -->
+<section class="about-us">
+  <div class="about-us__wrapper">
+    <span class="about-us__icon">
+      <img src="img/icon-4.png" alt="about-us-icon">
+    </span>
+    <h2 class="about-us__title">A NEW GENERATION OF VINTAGE BIKE</h2>
+    <p class="about-us__description">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
+  </div>
+</section>
+  <!-- The BEM block "work" is connected -->
+<section class="work">
+  <h2 class="visually-hidden">Work preview</h2>
+  <div class="work__wrapper">
+    <ul class="work__list">
+      <li class="work__item work__item--bike-1">
+        <div class="work__preview">
+          <span><img src="img/icon-1.png" width="113" height="118" alt="Bicycle company Since 1926"></span>
+        </div>
+        <div class="work__info">
+          <div class="work__text">
+            <span class="work__icon">
+              <img src="img/icon-5.png" width="177" height="152" alt="work-icon">
+            </span>
+            <h3 class="work__title">vintage Oliva</h3>
+            <p class="work__description">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived.</p>
+          </div>
+          <div class="work__preview-small"></div>
+        </div>
+      </li>
+      <li class="work__item work__item--bike-2">
+        <div class="work__preview">
+          <span><img src="img/icon-2.png" alt="Bicycle company Since 1926"></span>
+        </div>
+        <div class="work__info">
+          <div class="work__text">
+            <span class="work__icon">
+              <img src="img/icon-6.png" width="208" height="67" alt="work-icon">
+            </span>
+            <h3 class="work__title">La Boriosa</h3>
+            <p class="work__description">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived.</p>
+          </div>
+          <div class="work__preview-small"></div>
+        </div>
+      </li>
+      <li class="work__item work__item--bike-3">
+        <div class="work__preview work__preview--left">
+          <span><img src="img/icon-3.png" alt="Bicycle company Since 1926"></span>
+        </div>
+        <div class="work__info">
+          <div class="work__text">
+            <span class="work__icon">
+              <img src="img/icon-7.png" alt="work-icon">
+            </span>
+            <h3 class="work__title">retrò Bike - M. Hulot</h3>
+            <p class="work__description">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived.</p>
+          </div>
+          <div class="work__preview-small"></div>
+        </div>
+        <div class="work__preview work__preview--right"></div>
+      </li>
+    </ul>
+  </div>
+</section>
+  <!-- The BEM block "twitter-reviews" is connected -->
+<section class="twitter-reviews">
+  <h2 class="visually-hidden">Twitter reviews</h2>
+  <div class="twitter-reviews__wrapper">
+    <ul class="twitter-reviews__list">
+      <li class="twitter-reviews__item">
+        <span class="twitter-reviews__icon">
+          <img src="img/twitter-icon.png" width="32" height="27" alt="twitter">
+        </span>
+        <h3 class="twitter-reviews__title">AOD New York  @aod <span>/  35 min</span></h3>
+        <p class="twitter-reviews__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut tellus ac nulla semper rhoncus. Nullam a odio porttitor, dictum turpis vitae, pretium ante amet.</p>
+      </li>
+      <li class="twitter-reviews__item">
+        <span class="twitter-reviews__icon">
+          <img src="img/twitter-icon.png" width="32" height="27" alt="twitter">
+        </span>
+        <h3 class="twitter-reviews__title">AOD New York  @aod <span>/  45 min</span></h3>
+        <p class="twitter-reviews__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut tellus ac nulla semper rhoncus. Nullam a odio porttitor, dictum turpis vitae, pretium ante amet.</p>
+      </li>
+      <li class="twitter-reviews__item">
+        <span class="twitter-reviews__icon">
+          <img src="img/twitter-icon.png" width="32" height="27" alt="twitter">
+        </span>
+        <h3 class="twitter-reviews__title">AOD New York  @aod <span>/  55 min</span></h3>
+        <p class="twitter-reviews__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut tellus ac nulla semper rhoncus. Nullam a odio porttitor, dictum turpis vitae, pretium ante amet.</p>
+      </li>
+    </ul>
+  </div>
+</section>
+  <!-- The BEM block "shop" is connected -->
+<section class="shop">
+  <h2 class="visually-hidden">Shop</h2>
+  <div class="shop__wrapper">
+    <ul class="shop__list">
+      <li class="shop__item">
+        <a href="#">
+          <h3 class="visually-hidden">Brooks</h3>
+        </a>
+      </li>
+      <li class="shop__item">
+        <a href="#">
+          <h3 class="visually-hidden">Brooks</h3>
+        </a>
+      </li>
+      <li class="shop__item">
+        <a href="#">
+          <h3 class="visually-hidden">Brooks</h3>
+        </a>
+      </li>
+      <li class="shop__item">
+        <a href="#">
+          <h3 class="visually-hidden">Brooks</h3>
+        </a>
+      </li>
+      <li class="shop__item">
+        <a href="#">
+          <h3 class="visually-hidden">Brooks</h3>
+        </a>
+      </li>
+      <li class="shop__item">
+        <a href="#">
+          <h3 class="visually-hidden">Brooks</h3>
+        </a>
+      </li>
+      <li class="shop__item">
+        <a href="#">
+          <h3 class="visually-hidden">Brooks</h3>
+        </a>
+      </li>
+      <li class="shop__item">
+        <a href="#">
+          <h3 class="visually-hidden">Brooks</h3>
+        </a>
+      </li>
+    </ul>
+    <div class="shop__discover">
+      <a class="shop__button" href="#">DISCOVER THE SHOP</a>
+    </div>
+  </div>
+</section>
+  <!-- The BEM block "subscribe" is connected -->
+<section class="subscribe">
+  <h2 class="visually-hidden">Subscribe</h2>
+  <div class="subscribe__wrapper">
+    <!-- The BEM block "logotype" is connected -->
+<a href="#" class="logotype">
+  <img src="img/logo.png" width="94" height="85" alt="Logotype Bicycle">
+</a>
+    <h3 class="subscribe__tagline">Stay on the saddle!</h3>
+    <form action="#" method="POST" class="subscribe__form">
+      <input type="email" name="email" placeholder="enter your email..." class="subscribe__email">
+      <button type="submit" class="subscribe__button">GO</button>
+    </form>
+  </div>
+</section>
+  <!-- The BEM block "footer" is connected -->
+<footer class="main-footer">
+  <h2 class="visually-hidden">Contact info</h2>
+  <div class="main-footer__wrapper">
+    <div class="main-footer__info">
+      <p>AOD New York</p>
+      <p>2250 Lexington Avenue</p>
+      <p>New York, NY 10035  - <a href="mailto:info@domain.com">info@domain.com</a></p>
+    </div>
+    <ul class="main-footer__social social">
+      <li class="social__twitter"><a href="#"></a></li>
+      <li class="social__facebook"><a href="#"></a></li>
+      <li class="social__pinterest"><a href="#"></a></li>
+    </ul>
+    <div class="main-footer__credits">
+      <a href="#"></a>
+    </div>
+  </div>
+</footer>
+  <script src="js/main.min.js"></script>
+  <script src="js/vendor.min.js"></script>
+  <script>
+    // fix styles for ie11, adding a class "ie11"
+    navigator.sayswho = (function () {
+      var ua = navigator.userAgent,
+        tem,
+        M = ua.match(/(opera|chrome|safari|firefox|msie|trident(?=\/))\/?\s*([\d\.]+)/i) || [];
+      if (/trident/i.test(M[1])) {
+        tem = /\brv[ :]+(\d+(\.\d+)?)/g.exec(ua) || [];
+        return 'IE ' + (tem[1] || '');
+      }
+      M = M[2] ? [M[1], M[2]] : [navigator.appName, navigator.appVersion, '-?'];
+      if ((tem = ua.match(/version\/([\.\d]+)/i)) != null) M[2] = tem[1];
+      return M.join(' ');
+    })();
+
+    if (navigator.sayswho == 'IE 11.0') {
+      document.querySelector('body').className += ' ie11';
+    }
+  </script>
+</body>
+
+</html>
